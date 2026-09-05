@@ -1,0 +1,11 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+groq==0.15.0
+chromadb==0.5.23
+sentence-transformers==3.3.1
+youtube-transcript-api==1.2.4
+yt-dlp==2026.7.4
+pydantic==2.10.4
+rank-bm25==0.2.2
+numpy==1.26.4

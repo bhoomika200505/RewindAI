@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Node (if any tooling introduces it)
+node_modules/
+
+# Vector store / rebuilt at runtime from data/transcripts.json — never commit the built index
+**/chroma_db/
+**/*.sqlite3
+**/.chroma/
+
+# Local media cache (Whisper fallback path)
+**/downloads/
+**/*.mp4
+**/*.wav
+**/*.webm
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Working notes — see architecture.md at root for the diagram
+docs/

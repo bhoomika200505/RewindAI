@@ -1,0 +1,8 @@
+[
+  {"question": "What is a derivative?", "expected_video_id": "9vKqVkMQHKk"},
+  {"question": "How does the chain rule work?", "expected_video_id": "YG15m2VwSjA"},
+  {"question": "What is special about Euler's number e?", "expected_video_id": "m2MIpDrF7Es"},
+  {"question": "What is the fundamental theorem of calculus?", "expected_video_id": "rfG8ce4nNh0"},
+  {"question": "What is a Taylor series?", "expected_video_id": "3d6DsjIBzJ4"},
+  {"question": "What is the epsilon delta definition of a limit?", "expected_video_id": "kfF40MiS7zA"}
+]

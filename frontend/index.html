@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>RAG 2.0 — Ask the Lectures</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <header class="header">
+      <h1>RAG 2.0</h1>
+      <p>Ask a question. Get an answer grounded in the lecture playlist, with citations that jump the video to the exact minute.</p>
+    </header>
+
+    <main class="main">
+      <section class="video-pane">
+        <div id="player"></div>
+        <p id="player-hint" class="player-hint">Click a citation to jump the player here.</p>
+      </section>
+
+      <section class="chat-pane">
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="chat-form" class="chat-form">
+          <input
+            id="chat-input"
+            type="text"
+            placeholder="Ask something covered in the lectures..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Ask</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What does the instructor say regularization is for?",
+    "expected_video_id": "REPLACE_WITH_REAL_VIDEO_ID",
+    "note": "Pick a question you know the answer to and which video/lecture actually covers it."
+  },
+  {
+    "question": "How is the vector store described in the lectures?",
+    "expected_video_id": "REPLACE_WITH_REAL_VIDEO_ID",
+    "note": "Aim for a mix: some questions with an obvious single-video answer, some that could plausibly match two videos (tests whether retrieval picks the right one)."
+  },
+  {
+    "question": "What's the acronym/term the instructor uses for X?",
+    "expected_video_id": "REPLACE_WITH_REAL_VIDEO_ID",
+    "note": "Include at least one exact-term/acronym question — this is the case hybrid (keyword+vector) retrieval is meant to catch that vector-only search tends to miss."
+  }
+]
